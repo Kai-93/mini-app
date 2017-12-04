@@ -1,0 +1,2 @@
+<!--pages/webview/webview.wxml-->
+<web-view class="webview" src="https://dgm.yanshanpk.com/views/web-mobile/test"></web-view>
