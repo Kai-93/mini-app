@@ -1,0 +1,130 @@
+.main{
+  background: #f1f4f5;
+  overflow: hidden;
+}
+.basicinfo-prompt {
+  position: relative;
+  width: 525rpx;
+  font-size: 26rpx;
+  color: #333;
+  margin: 22rpx auto 36rpx;
+  padding-left: 57rpx;
+}
+.basicinfo-prompt:before {
+  position: absolute;
+  top: 50%;
+  left: -78rpx;
+  transform: translatey(-50%);
+  -webkit-transform: translatey(-50%);
+  width: 99rpx;
+  height: 98rpx;
+  border-radius: 100%;
+  background: pink;
+  content: "";
+}
+/*图片上传容器背景*/
+.upload-image-bg {
+  position: relative;
+  width: 700rpx;
+  height: 918rpx;
+  background: #fff;
+  margin: 0 auto;
+  padding-top: 62rpx;
+  box-shadow: 0 15px 10px 15px rgba(212, 212, 212, 0.1);
+  -webkit-box-shadow: 0 15px 10px 15px rgba(212, 212, 212, 0.1);
+}
+.empty {
+  height: 1.7rpx;
+}
+.upload-image-bg:after {
+  position: absolute;
+  left: 0;
+  bottom: -17rpx;
+  width: 700rpx;
+  height: 17rpx;
+  background: pink;
+  content: "";
+}
+/*图片上传容器*/
+.upload-image-wrap {
+  position: relative;
+  width: 540rpx;
+  height: 720rpx;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.upload-placeholder {
+  width: 540rpx;
+  height: 720rpx;
+}
+.upload-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  height: 100%;
+}
+/*图片上传按钮*/
+.upload-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 71rpx;
+  transform: translatex(-50%);
+  -webkit-transform: translatex(-50%);
+  width: 130rpx;
+  height: 130rpx;
+  border: 10rpx solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #fa4973;
+}
+.upload-btn:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 108rpx;
+  height: 108rpx;
+  border-radius: 100%;
+  background: pink;
+  content: "";
+}
+.upload-btn:after {
+  display: block;
+  width: 190rpx;
+  font-size: 26rpx;
+  color: #333;
+  margin-top: 140rpx;
+  margin-left: -23rpx;
+  content: "点击拍照/上传";
+}
+/*发布需求底部按钮样式*/
+.btn-container {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  width: 100%;
+  height: 119rpx;
+  margin-top: 50rpx;
+  padding-top: 20rpx;
+  border-top: 2rpx solid #d5d5d5;
+  background: #fff;
+}
+.basicinfo-btn {
+  width: 337rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+  text-align: center;
+  color: #fff;
+  margin: 0 13rpx;
+  border-radius: 10rpx;
+  -webkit-border-radius: 10rpx;
+  background: #dadddf;
+}
+.basicinfo-btn.btn-on {
+  background: #fa4973;
+}

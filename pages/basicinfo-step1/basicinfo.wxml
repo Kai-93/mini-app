@@ -1,0 +1,15 @@
+<view class='main'>
+  <view class='basicinfo-prompt'>
+    <text class='tip'>不考虑脸型五官的发型设计和耍流氓一样请原谅我们需要你上传正面照一张</text>
+  </view>
+  <view class='upload-image-bg'>
+    <view class='upload-image-wrap'>
+      <image class='upload-placeholder' src='http://n.sinaimg.cn/photo/transform/w550h734/20171204/BFDg-fypikwt6298523.jpg'></image>
+       <image class='upload-image' src='{{face_img}}'></image> 
+    </view>
+    <text class='upload-btn' bindtap='funUploadImg'></text>
+  </view>
+  <view class="btn-container">
+    <button class='basicinfo-btn'>下一步(1/3)</button>
+  </view>
+</view>

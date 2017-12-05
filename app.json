@@ -1,13 +1,29 @@
 {
   "pages": [
+    "pages/basicinfo-step1/basicinfo",
+    "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
     "pages/webview/webview"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  }
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#00bfff",
+    "backgroundColor": "#dcdcdc",
+    "list":[{
+      "pagePath": "pages/basicinfo-step1/basicinfo",
+      "text":"我的需求"
+    },{
+      "pagePath": "pages/mine/mine",
+      "text": "我的方案"
+    }]
+  },
+  "debug": false
 }
